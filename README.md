@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Project%20Manager-Maven-blue?style=for-the-badge&logo=maven)
-![](https://img.shields.io/github/repo-size/TboyDark/JavaProject)
-![](https://img.shields.io/github/languages/top/TboyDark/JavaProject)
+![](https://img.shields.io/github/repo-size/TboyDark/JavaProject?style=for-the-badge)
+![](https://img.shields.io/github/languages/top/TboyDark/JavaProject?style=for-the-badge)
 
 
 # Java Project
@@ -20,6 +20,7 @@ the program will promt a menu, in this menu you'll find a num value from 0 to 5.
 - 3: You will cancel a reservation.
 - 4: You will create a new user.
 - 5: You will export into the desktop, a file containing all the available courses.
+- 0: Exit program.
 
 ## In depth description for the services.
 - After you selected the "1" value, the program will get all the courses of the file courses.csv and then display them all into the console in this format: **ID, Name, Description, Date, Hours Length, Location, Available**.

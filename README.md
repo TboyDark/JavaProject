@@ -1,4 +1,6 @@
 ![](https://img.shields.io/badge/Project%20Manager-Maven-blue?style=for-the-badge&logo=maven)
+![](https://img.shields.io/github/repo-size/TboyDark/JavaProject)
+![](https://img.shields.io/github/languages/top/TboyDark/JavaProject)
 
 
 # Java Project

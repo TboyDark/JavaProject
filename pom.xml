@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.IncuDO</groupId>
+    <artifactId>app-reservation</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>ReservationApp</name>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
+    <build>
+        <finalName>ReservationApp</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <addClasspath>true</addClasspath>
+                        <mainClass>com.IncuDO.Main</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
